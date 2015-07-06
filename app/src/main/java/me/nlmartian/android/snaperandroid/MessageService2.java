@@ -51,7 +51,7 @@ public class MessageService2 extends Service {
 
     public static final String TAG = MessageService2.class.getSimpleName();
 
-    public static final String TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI1MzY3Mjg1ZGJkMDVlMTMyMmEwMDFlY2UiLCJleHAiOjE0MzU0ODI5NzN9.G2ggQm8df5387P-x_8unNZAp3s4X_kwl-eeqpsuY6pw";
+    public static final String TOKEN = "";
 
     public static final String ACTION_CONNECT = "com.teambition.talk.service.ACTION_CONNECT";
 
