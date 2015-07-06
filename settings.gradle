@@ -1,0 +1,2 @@
+include ':app', ':engine.io-client.java-master'
+project(':engine.io-client.java-master').projectDir = new File('extras/engine.io-client.java-master')

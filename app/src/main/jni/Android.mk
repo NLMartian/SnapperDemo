@@ -1,0 +1,9 @@
+LOCAL_PATH:= $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES := watchdog.c
+LOCAL_MODULE := watchdog
+LOCAL_MODULE_PATH := $(TARGET_OUT_EXECUTABLES)
+LOCAL_LDLIBS := -llog
+include $(BUILD_EXECUTABLE)
+
